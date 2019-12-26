@@ -3,9 +3,9 @@ name: Generate-Chnroute-CI
 on:
   schedule:
     - cron: 0 8 * * *
-  push:
-    branches: 
-      - master
+  #push:
+  #  branches: 
+  #    - master
       
 jobs:
   build:

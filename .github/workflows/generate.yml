@@ -1,11 +1,11 @@
 name: Generate-Chnroute-CI
 
 on:
-  schedule:
-    - cron: 0 16 * * *
-  #push:
-  #  branches: 
-  #    - master
+  #schedule:
+  #  - cron: 0 16 * * *
+  push:
+    branches: 
+      - master
       
 jobs:
   build:
